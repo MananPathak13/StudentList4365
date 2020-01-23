@@ -21,6 +21,7 @@ public class StudentList {
 
         System.out.println("Now we create our Students");
 
+        // use three students
         Student[] students = new Student[3];
 
         for (int i = 0; i < 3; i++) {

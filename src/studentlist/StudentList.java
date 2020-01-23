@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * This class our first Example class for review
- *modified by author
+ *modified on jan 23
  * @author Paul Bonenfant
  */
 public class StudentList {
@@ -14,32 +14,7 @@ public class StudentList {
      */
     public static void main(String[] args) {
         
-        // First we do the word example
-        
-        System.out.println("Please enter a word");
-        
-        Scanner input = new Scanner(System.in);
-        
-        String word = input.nextLine();
-        
-        char[] wordArray = new char[word.length()];
-        
-        for (int i = 0; i < wordArray.length; i++) {            
-            wordArray[i] = word.charAt(i);
-        }
-
-        // print out the char array
-        for (char character: wordArray) {
-            System.out.print(character);
-        }
-        
-        // add a blank line
-        System.out.println();
-        
-        // now print in reverse
-        for(int i = wordArray.length - 1; i >= 0; i-- ) {
-            System.out.print(wordArray[i]);
-        }
+        // removed the code
         
         // add a blank line
         System.out.println();
